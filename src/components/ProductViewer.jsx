@@ -12,7 +12,7 @@ const ProductViewer = () => {
 
     const { color, scale, setColor, setScale } = useMacbookStore();
 
-    const isMobile = useMediaQuery({ query: '(max-width: 1024px)' });  // mobile or tablet
+    const isMobile = useMediaQuery({ query: '(max-width: 1024px)' });  // smaller than 1024px i.e. mobile or tablet
 
   return (
     <section id = 'product-viewer'>

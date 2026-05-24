@@ -17,7 +17,7 @@ const fadeMeshes = (group, opacity) => {
   group.traverse((child) => {
     if (child.isMesh) {
       child.material.transparent = true;
-      gsap.to(child.material, { opacity, duration: ANIMATION_DURATION })
+      gsap.to(child.material, { opacity, duration: ANIMATION_DURATION }) // firt param is the element and second param is what changes/modification we want in them.
     }
   })
 }
@@ -26,7 +26,7 @@ const moveGroup = (group, x) => {
 
   if (!group) return;
 
-  gsap.to(group.position, { x, duration: ANIMATION_DURATION })
+  gsap.to(group.position, { x, duration: ANIMATION_DURATION }) // firt param is the element and second param is what changes/modification we want in them.
 }
 
 
