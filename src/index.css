@@ -53,7 +53,6 @@ html {
 
 body {
   width: 100vw;
-  height: 100vh;  /* included */
   overflow-x: hidden;
   background-color: #000;
   color: var(--color-dark-100);

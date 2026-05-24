@@ -4,6 +4,7 @@ import Hero from './components/Hero'
 import ProductViewer from './components/ProductViewer'
 import gsap from 'gsap'
 import { ScrollTrigger } from 'gsap/all'  // To animate elements based on scroll position.
+import Showcase from './components/Showcase'
 
 
 gsap.registerPlugin(ScrollTrigger)
@@ -14,6 +15,7 @@ const App = () => {
       <NavBar />
       <Hero />
       <ProductViewer />
+      <Showcase />
     </main>
   )
 }
