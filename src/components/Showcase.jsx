@@ -22,7 +22,7 @@ const Showcase = () => {
                     transform: 'scale(1.1)'
                 }).to('.content', { opacity: 1, y: 0, ease: 'power1.in' });  
         }
-    }, [isTablet])   // Note: inside .to() of gsap the firt param is the element and second param is what changes/modification we want in them.
+    }, [isTablet])  // Note: inside .to() of gsap the firt param is the element and second param is what changes/modification we want in them.
 
     return (
         <section id="showcase">
