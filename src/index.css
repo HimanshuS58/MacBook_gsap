@@ -320,7 +320,7 @@ body {
       @apply grid grid-cols-1 lg:grid-cols-2 gap-5 mt-20 text-[#F5F5F7]; */
 
       .masonry {
-      @apply grid grid-cols-1 lg:grid-cols-2 gap-5 mt-10 lg:mt-20 text-[#F5F5F7];
+      @apply grid grid-cols-1 lg:grid-cols-2 gap-5 mt-10 lg:mt-20 text-[#F5F5F7] xl:px-20;
 
       .left-column {
         @apply flex flex-col justify-between gap-5 opacity-0 -translate-y-5;
@@ -413,7 +413,8 @@ body {
   }
 
   footer {
-    @apply container mx-auto py-7 max-lg:px-5;
+    /* @apply container mx-auto py-7 max-lg:px-5; */
+    @apply container mx-auto py-7 max-lg:px-5 xl:px-20;
 
     .info {
       @apply flex-between;
