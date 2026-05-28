@@ -2,6 +2,13 @@
 https://macbook-gsap.onrender.com
 
 
+# MacBook_gsap
+This project is a premium Apple-inspired MacBook Pro landing page clone built using ReactJS, Tailwind CSS, Three.js, React Three Fiber, GSAP, and Zustand, focused on delivering an immersive and cinematic web experience through advanced scroll animations, interactive 3D product visualization, and responsive UI design. The application recreates the feel of Apple’s official product pages by combining photorealistic 3D MacBook models, scroll-synchronized video sections, parallax masking effects, and smooth GSAP-powered transitions to create a highly engaging storytelling experience. 
+
+The project includes features such as interactive 3D MacBook viewers with color and size switching, dynamic video textures, scroll-triggered animations using GSAP ScrollTrigger, responsive bento-grid layouts, autoplay cinematic hero videos, and optimized lighting setups for realistic rendering. Zustand is used for lightweight global state management, while reusable React components and modern frontend architecture ensure maintainability and scalability. The application follows professional development practices including GitHub workflow integration, AI-assisted code reviews, performance optimization, and production-ready deployment support using modern hosting platforms.
+
+
+
 # Output
 <img width="1898" height="861" alt="Screenshot 2026-05-28 225413" src="https://github.com/user-attachments/assets/9e5f3e79-6f4f-45f0-906e-220c5240e461" />
 
